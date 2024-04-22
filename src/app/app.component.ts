@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CocktailService } from './services/cocktail.service';
 
 @Component({
   selector: 'app-root',

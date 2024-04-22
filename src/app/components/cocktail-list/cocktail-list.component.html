@@ -1,0 +1,7 @@
+@for (cocktail of cocktails; track $index) {
+    <figure>
+        <img [src]="cocktail.imgUrl" [alt]="cocktail.name"/>
+        <h3>{{ cocktail.name }}</h3>
+    </figure>
+}
+   
